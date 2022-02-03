@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x72dE21fC64318A4225D5A5e9aA848CcF423f82eE",
+  "SCAN_LINK": "https://etherscan.io/address/0x72de21fc64318a4225d5a5e9aa848ccf423f82ee",
+  "NETWORK": {
+    "NAME": "Ethereum",
+    "SYMBOL": "Eth",
+    "ID": 1
+  },
+  "NFT_NAME": "Cool Lions NFT",
+  "SYMBOL": "Cool Lion",
+  "MAX_SUPPLY": 9999,
+  "WEI_COST": 50000000000000000,
+  "DISPLAY_COST": 0.05,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/coollions",
+  "SHOW_BACKGROUND": true
+}
