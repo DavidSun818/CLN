@@ -73,6 +73,14 @@ export const StyledLogo = styled.img`
   transition: width 0.5s;
   transition: height 0.5s;
 `;
+export const StyledTwitterLogo = styled.img`
+  width: 40px;
+  @media (min-width: 767px) {
+    width: 60px;
+  }
+  transition: width 0.5s;
+  transition: height 0.5s;
+`;
 
 export const StyledImg = styled.img`
   box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
@@ -222,6 +230,9 @@ function App() {
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
           >
+            <a href={CONFIG.TWITTER_LINK}>
+              <StyledTwitterLogo alt={"logo"} src={"/config/images/twitter.png"} />
+            </a>
             <s.TextTitle
               style={{
                 textAlign: "center",
@@ -258,7 +269,7 @@ function App() {
                 {CONFIG.MARKETPLACE}
               </StyledButton>
             </span> */}
-            
+
             <s.SpacerSmall />
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
               <>
